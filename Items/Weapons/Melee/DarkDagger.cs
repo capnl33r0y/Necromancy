@@ -25,7 +25,7 @@ namespace Necromancy.Items.Weapons.Melee
             item.rare = 2;
             item.shoot = mod.ProjectileType("DarkDaggerSwipe");
             item.shootSpeed = 64f;
-            item.GetGlobalItem<NecromancyGlobalItem>(mod).lifeSteal = 2;
+            item.GetGlobalItem<NecromancyGlobalItem>(mod).lifeSteal = 13;
         }
 
         public override void AddRecipes()
